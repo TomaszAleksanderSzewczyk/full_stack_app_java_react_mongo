@@ -26,7 +26,7 @@ public class Movie {
     private List<String> genres;
     private List<String> backdrops;
 
-    @DocumentReference // https://www.baeldung.com/spring-data-mongodb-reactive
+    @DocumentReference
     private List<Review> reviewId;
 
 }
